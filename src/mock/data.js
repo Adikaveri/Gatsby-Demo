@@ -45,6 +45,15 @@ export const projectsData = [
     // url: '',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'Project3.png',
+    title: 'Amazon Alexa',
+    info: 'In this certified course, I build an Alexa Skill. I created a game "Stone-Paper-Scissor" ',
+    info2: 'I learned deployment, building and testing of Alexa skill. My skill is published in Amazon Alexa Console.'
+    // url: '',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
  
  
 ];
