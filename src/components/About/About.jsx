@@ -47,7 +47,7 @@ const About = () => {
                     'Able to work under pressure and making quick decisions whenever required. '}
                 </p>
                   
-                {resume && (
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -58,7 +58,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
