@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Aditya Kaveri', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Aditya Kaveri',
+  subtitle: 'I am the Emerging Developer',
   cta: '',
 };
 
@@ -28,31 +28,25 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Project1.jpg',
+    title: 'Water Shielder',
+    info: 'This device which aims on water pollution caused by industries. The basic idea of the system is to monitor & alert the authorities regarding the characteristic forms of effluents that are deposited in the water bodies.',
+    info2: 'This system aims for a controlled outflow from sewages that are mixed in water bodies and identification is to be done with geo-informatics technology to have administrate control for certain industries who all are responsible for it. With the facility of IoT in this system to analyse the data over the time.'
+    
+    // url: '',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'Project2.jpg',
+    title: 'Development of Hospital Service',
+    info: 'The project aims to make healthcare accessible to the people easily. The solution is to develop a platform wherein hospitals and medical practitioners can list their services and the common public can view and book those services and make it accessible to the people at an affordable price.',
+    info2: 'I worked on the front-end UI with React native and JavaScript for the web application for hospitals to monitor requests, followed by designing a data base schema on Firebase Cloud Firestore.',
+    // url: '',
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+ 
+ 
 ];
 
 // CONTACT DATA

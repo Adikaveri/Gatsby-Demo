@@ -19,7 +19,7 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
-        <div className="social-links">
+        {/* <div className="social-links">
           {networks &&
             networks.map((network) => {
               const { id, name, url } = network;
@@ -35,16 +35,22 @@ const Footer = () => {
                 </a>
               );
             })}
-        </div>
+        </div> */}
         <hr />
-        <p className="footer__text">
+        {/* <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a>
-        </p>
+        </p> */}
 
-        {isEnabled && <GithubButtons />}
+        {/* {isEnabled && <GithubButtons />} */}
+        <p className="footer__text">
+          © {new Date().getFullYear()} - Template developed by{' '}
+          <a href="https://in.linkedin.com/in/aditya-kaveri-2a39721a0" target="_blank" rel="noopener noreferrer">
+            Aditya Kaveri
+          </a>
+        </p>
       </Container>
     </footer>
   );
