@@ -40,11 +40,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Throughout my education, I have demonstrated high levels of motivation, work ethics and team work to achieve my predicted grades. I wish to utilize these skills for enhancement of organisation. An enthusiastic professional, who is willing to put in all the hard work and eorts to the projects clients given to him. '}
+                    'Throughout my education, I have demonstrated high levels of motivation, work ethics and team work to achieve my predicted grades. I wish to utilize these skills for enhancement of organisation.'}
                 </p>
                 <p className="about-wrapper__info-text">
                 {paragraphTwo ||
-                    'Able to work under pressure and making quick  decisions when required. '}
+                    'Able to work under pressure and making quick decisions whenever required. '}
                 </p>
                   
                 {resume && (
